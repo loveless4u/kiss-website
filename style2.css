@@ -1,0 +1,33 @@
+header {
+	background: black;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+div p, ol > li {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+div img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	
+	border: 2px solid red;
+	border-radius: 5px;
+}
+body > p:first-of-type {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+.center-img {
+  display: block;
+  margin: 0 auto;  /* Сокращённая запись margin-left и margin-right */
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
